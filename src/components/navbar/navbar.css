@@ -15,20 +15,20 @@
 .logo span:first-child {
   font-size: 1.9rem;
   font-weight: bold;
-  color: #000;
+  color: #1c3a2b;
   background-color: var(--background-color);
 }
 
 .logo span:last-child {
   font-size: 1rem;
-  color: #525252;
+  color: #5c6b60;
   background-color: var(--background-color);
   letter-spacing: 0.2rem;
 }
 
 .menu-items li {
   position: relative;
-  color: #4d4d4d;
+  color: #4a5750;
   font-size: 1.25rem;
   background-color: var(--background-color);
   cursor: pointer;
@@ -42,14 +42,14 @@
   bottom: -0.6vh;
   width: 100%;
   height: 2px;
-  background-color: #a8dadc;
+  background-color: #4f9d6a;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.25s ease-in-out;
 }
 
 .menu-items li:hover {
-  color: #000;
+  color: #1c3a2b;
 }
 
 .menu-items li:hover::after {
@@ -101,7 +101,7 @@
   .hamburger-menu div {
     width: 100%;
     height: 0.4vh;
-    background-color: #4d4d4d;
+    background-color: #4a5750;
     border-radius: 1vh;
     transition: all 0.2s ease-in-out;
   }
@@ -136,7 +136,7 @@
     background-color: var(--background-color);
   }
   .mobile-menu-items li {
-    color: #4d4d4d;
+    color: #4a5750;
     font-size: 1.25rem;
     background-color: var(--background-color);
     cursor: pointer;
@@ -144,6 +144,6 @@
   }
 
   .mobile-menu-items li:hover {
-    color: #000;
+    color: #1c3a2b;
   }
 }
